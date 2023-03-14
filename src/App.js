@@ -7,6 +7,14 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Paris" />
       </div>
+      <footer>
+        {" "}
+        This project is coded by Anna Tsantekidou and it is
+        <a href="https://github.com/annats04/weather-react-app" target="_blank">
+          {" "}
+          open-sourced on Github
+        </a>
+      </footer>{" "}
     </div>
   );
 }
