@@ -47,6 +47,6 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
-
-  margin-left: 5px;
+  line-height: 1;
+  top: -34px;
 }
