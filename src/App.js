@@ -17,6 +17,7 @@ export default function App() {
           rel="noopener noreferrer"
         >
           {" "}
+          <br />
           open-sourced on GitHub{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
