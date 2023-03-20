@@ -4,7 +4,21 @@
 }
 
 .App footer {
+  color: #362d3b;
+  opacity: 0.9;
   font-size: 11px;
+  letter-spacing: 1px;
   text-align: center;
-  margin: 10px 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.App .githubLink {
+  text-decoration: none;
+  color: #362d3b;
+  font-weight: bolder;
+}
+
+.App .githubLink:hover {
+  font-size: 12px;
+  font-weight: bolder;
 }

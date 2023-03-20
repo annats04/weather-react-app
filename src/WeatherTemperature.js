@@ -37,7 +37,7 @@ export default function WeatherTemperature(props) {
             {" "}
             °C
           </a>{" "}
-          | °F{" "}
+          | °F
         </span>
       </div>
     );

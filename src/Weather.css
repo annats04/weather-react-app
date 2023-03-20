@@ -1,38 +1,38 @@
 .Weather {
   border: 1px solid #dadde1;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #878787;
-  padding: 16px;
-  margin: 30px auto;
-  max-width: 600px;
-  border-radius: 4px;
+  font-family: "Quicksand", sans-serif;
+
+  color: black;
+  padding: 30px;
+  margin: 10px auto;
+  max-width: 700px;
+  border-radius: 10px;
+  background-image: url("watercolor3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  max-width: 1000px;
 }
 
 .Weather form {
   margin-bottom: 20px;
 }
 .Weather h1 {
-  font-size: 24;
-  font-weight: 100;
+  font-size: 48px;
+  font-weight: 900;
   line-height: 29px;
-  margin: 20px 0 10px 0;
-}
-
-.Weather ul {
-  margin: 0;
-  padding: 0;
-}
-.Weather li {
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 19px;
-  list-style: none;
+  margin: 30px 0 40px 0;
+  letter-spacing: 10px;
+  color: black;
+  text-align: center;
 }
 
 .Weather canvas {
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 8px;
   display: inline-block;
+  position: relative;
+  top: -5px;
 }
 
 .Weather .temperature {
@@ -41,8 +41,15 @@
   font-size: 64px;
   line-height: 64px;
   margin-top: 10px;
+  position: relative;
 }
-
+.Weather .description {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 24px;
+}
 .Weather .unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
@@ -50,4 +57,51 @@
   position: relative;
   line-height: 1;
   top: -34px;
+  text-decoration: none;
+}
+
+.Weather a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.Weather a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.WeatherForecast-day {
+  margin-bottom: 10px;
+
+  text-align: center;
+}
+
+.ForecastDays {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.wind,
+.humidity,
+.realfeel {
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: 5px;
+  box-shadow: 3px 7px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
+
+.wind:hover {
+  font-size: 17px;
+}
+
+.humidity:hover {
+  font-size: 17px;
+}
+
+.realfeel:hover {
+  font-size: 17px;
 }
