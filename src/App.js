@@ -9,7 +9,7 @@ export default function App() {
       </div>
       <footer>
         <i className="fa-solid fa-code-simple"></i>coded by Anna Tsantekidou in
-        React JS <i className="fa-brands fa-react"></i> and
+        React JS <i className="fa-brands fa-react"></i>
         <a
           className="githubLink"
           href="https://github.com/annats04/weather-react-app"

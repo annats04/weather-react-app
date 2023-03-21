@@ -10,8 +10,6 @@
   background-image: url("watercolor3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
-  max-width: 1000px;
 }
 
 .Weather form {
@@ -104,4 +102,9 @@
 
 .realfeel:hover {
   font-size: 17px;
+}
+
+.Weather .date {
+  font-size: 15px;
+  opacity: 0.9;
 }
