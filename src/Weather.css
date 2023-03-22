@@ -29,7 +29,7 @@
   margin-top: 8px;
   display: inline-block;
   position: relative;
-  top: -5px;
+  margin-right: 15px;
 }
 
 .Weather .temperature {
