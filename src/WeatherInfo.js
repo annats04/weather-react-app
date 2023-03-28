@@ -9,8 +9,14 @@ export default function WeatherInfo(props) {
       <div className="date">
         <FormattedDate date={props.data.date} />
       </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-4 justify-content-center">
+            <div className="city">{props.data.city}</div>
+          </div>
+        </div>
+      </div>
 
-      <div className="city sm-4">{props.data.city} </div>
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-sm-5 mx-auto">
