@@ -11,7 +11,7 @@ export default function WeatherInfo(props) {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-sm-4 justify-content-center">
+          <div className="col justify-content-center">
             <div className="city">{props.data.city}</div>
           </div>
         </div>
